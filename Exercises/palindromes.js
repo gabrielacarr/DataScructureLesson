@@ -23,6 +23,7 @@ function palidrome(str) {
 // .every()
 // bollean check on every element within an array
 // ex. array.every((val) => val > 5);
+// checks twice and first solution should be used  
 function palidrome(str) {
    return str.split('').every((char, i) => {
         return char === str[str.length - i - 1];
