@@ -50,3 +50,13 @@ function reversedInt(n) {
     const reversed = n.toString().split('').reverse().join('')
     return parseInt(reversed) * Math.sign(n);
 }
+
+
+
+function reversedInt(n) {
+    const reversed = n.toString().split('').reverse().join('');
+    return parseInt(reversed) * Math.sign(n);
+}
+
+// Time Complexity: O(log N)
+// input 10 times rather than 2
