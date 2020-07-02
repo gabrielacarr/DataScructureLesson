@@ -29,6 +29,8 @@ function reverse(str) {
 
 }
 
+
+
  // create an empty string called 'reversed'
  // for each character provided in the string
  // take the character and add it to the start of the 'reversed'
@@ -40,9 +42,19 @@ function reverse(str) {
    return  str.split('').reduce(() => {
         return character + reversed;
     }, '')
- }
+}
 
  // code clean for solution three:
  function reverse(str) {
     return str.split('').reduce((rev, char) => char + rev, '');
- }
+}
+
+
+// --- Directions 
+// Given a string, return a new string with the reversed 
+// order of characters
+// --- Examples
+//      reverse('apple') === 'leepa'
+//      reverse('hello') === 'olleh'
+//      reverse('Greetings!') === '!sgniteerG'
+

@@ -1,2 +1,5 @@
 # DataScructureLesson
-Reverse String, Palidrome, Reverse Integer
++ Reverse String
++ Palidrome
++ Reverse Integer
++ MaxChar
