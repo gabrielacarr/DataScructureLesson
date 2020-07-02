@@ -6,7 +6,25 @@
 // maxChar('apple 1231111') === '1'
 
 function maxChar(str) {
-
+    const charMap = {};
+    let max = 0;
+    let maxChar = '';
+    
+    for (let char of str) {
+        if (charMap[char]) {
+            charMap[char]++;
+        } else {
+            charMap[char] = 1;
+        }
+    }
+    // console.log(charMap);
+    for (let char in charMap) {
+        if (charMap[char] > max) {
+            max = charMap[char];
+            maxChar = char;
+        }
+    }
+    return maxChar;
 }
 
 
@@ -68,3 +86,27 @@ function maxChar(str) {
     // object starts with o
     // do not use for let of loop to iterate through it
     // use for let in
+
+
+    function maxChar(str) {
+        
+        const maxChar = '';
+        const max = 0;
+        const charMap = '';
+
+       for (let char of str) {
+        if (maxChar[char] > max) {
+            charMap[char] ++;
+        } else {
+            charMap[char] = 1
+        }
+        }
+
+        for ( let char in str) {
+            if(charMap[char] > max){
+                max = charMap[char]
+                maxChar = char
+            }
+        }
+        return maxChar;
+    }
