@@ -110,3 +110,6 @@ function maxChar(str) {
         }
         return maxChar;
     }
+
+
+    
