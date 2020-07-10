@@ -112,4 +112,25 @@ function maxChar(str) {
     }
 
 
+    // Learning 
     
+    const string = "Hello There"
+    const chars = {};
+
+    for (let char of string) {
+        chars[char] = chars[char] + 1 || 1; // if falsy, otherwise add 1
+    }
+
+    const string = "Hello There"
+    const chars = {};
+
+    for (let char of string) {
+        chars[char] = chars[char] + 1 || 1; // if falsy, otherwise add 1
+    }
+
+    const string = "Hello There"
+    const chars = {};
+
+    for (let char of string) {
+        chars[char] = chars[char] + 1 || 1; // if falsy, otherwise add 1
+    }
