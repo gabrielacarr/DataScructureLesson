@@ -58,3 +58,29 @@ function reverse(str) {
 //      reverse('hello') === 'olleh'
 //      reverse('Greetings!') === '!sgniteerG'
 
+// Learning 
+function reverse(str) {
+    return str.split('').reverse().join('')
+}
+
+function reverse(str) {
+    return str.split('').reverse().join('')
+}
+
+function reverse(str) {
+    return str.split('').reverse().join('')
+}
+
+function reverse(str) {
+    return str.split('').reverse().join('')
+}
+
+function reverse(str) {
+    return str.split('').reverse().join('')
+}
+
+function reverse(str) {
+    return str.split('').reverse().join('')
+}
+
+v
