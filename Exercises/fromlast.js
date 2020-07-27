@@ -1,4 +1,5 @@
 // --- Directions
+// From Last
 // Given a linked list and integer n, return the element n
 // spaces from the last node in the list.  Do not call the
 // 'size' method of the linked list.  Assume that n will always
