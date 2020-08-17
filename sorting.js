@@ -14,3 +14,6 @@ function bubbleSort(arr) {
       }
     }
     
+  // return the sorted array
+  return arr;
+}
