@@ -13,7 +13,7 @@ function vowels(str) {
   }
 
 
-  // function vowels(str) {
+// function vowels(str) {
 //   let count = 0;
 //   const checker = ['a', 'e', 'i', 'o', 'u'];
 //
